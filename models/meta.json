@@ -1,0 +1,18 @@
+{
+  "target_definition": "sleep_quality_label = 1 if quality_of_sleep >= 7 else 0",
+  "num_cols": [
+    "sleep_duration",
+    "physical_activity_level",
+    "stress_level",
+    "age",
+    "heart_rate",
+    "daily_steps"
+  ],
+  "cat_cols": [
+    "gender",
+    "occupation",
+    "bmi_category",
+    "sleep_disorder"
+  ],
+  "accuracy": 0.9733333333333334
+}
